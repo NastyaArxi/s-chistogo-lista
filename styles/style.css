@@ -53,18 +53,18 @@ header {
    width: 100%;
 }
 
-.header__menu-list{
+.header__menu-list {
    display: flex;
    gap: 12px;
    flex-direction: column;
    list-style: none;
 }
 
-.header__menu-item{
+.header__menu-item {
    font-size: 16px;
 }
 
-.cover{
+.cover {
    background-image: url(../images/cover.svg);
    background-repeat: no-repeat;
    background-size: 95% auto;
@@ -73,14 +73,14 @@ header {
    padding: 7px 20px 30px;
 }
 
-.cover__title{
+.cover__title {
    font-size: 72px;
    font-family: 'EB Garamond';
    font-weight: 400;
    line-height: 1;
 }
 
-.accent-span{
+.accent-span {
    display: block;
 }
 
@@ -102,7 +102,7 @@ header {
    padding-bottom: 24px;
 }
 
-.intro__title{
+.intro__title {
    font-size: 16px;
    font-weight: 400;
    line-height: 1.2;
@@ -125,7 +125,7 @@ header {
    padding: 40px 20px;
 }
 
-.content-section__subtitle{
+.content-section__subtitle {
    font-family: 'EB Garamond';
    color: #131313;
    font-size: 28px;
@@ -134,7 +134,7 @@ header {
    padding-bottom: 32px;
 }
 
-.content-section__introduction{
+.content-section__introduction {
    color: #131313;
    font-size: 20px;
    padding-bottom: 32px;
@@ -154,11 +154,11 @@ header {
    font-weight: 700;
 }
 
-.how-to{
+.how-to {
    padding: 40px 20px 60px;
 }
 
-.how-to__title{
+.how-to__title {
    font-family: 'EB Garamond';
    font-size: 28px;
    font-weight: 500;
@@ -166,12 +166,12 @@ header {
    padding-bottom: 32px;
 }
 
-.how-to__text{
+.how-to__text {
    font-size: 20px;
    padding-bottom: 32px;
 }
 
-.cards-list{
+.cards-list {
    list-style: none;
    padding-bottom: 32px;
 }
@@ -197,7 +197,7 @@ header {
    padding-bottom: 8px;
 }
 
-.card__title{
+.card__title {
    font-family: 'EB Garamond';
    font-size: 22px;
    font-weight: 500;
@@ -221,17 +221,13 @@ footer {
 }
 
 .footer__menu-list {
-   list-style: none;
-}
-
-.footer__menu{
-   font-size: 14px;
-   width: 73px;
-}
-
-.footer__menu-list{
    display: flex;
    justify-content: space-between;
+}
+
+.footer__menu {
+   font-size: 14px;
+   width: 73px;
 }
 
 .footer__menu-link {
