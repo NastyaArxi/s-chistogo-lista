@@ -7,7 +7,7 @@
 body {
    margin: 0;
    color: #F5F5F5;
-   font-family: Inter, sans-serif;
+   font-family: 'Inter', Helvetica, Arial, Roboto, sans-serif;
    font-weight: 400;
    background-color: #1e1e1e;
 }
@@ -74,8 +74,9 @@ header {
 }
 
 .cover__title {
+   color: #fff;
    font-size: 72px;
-   font-family: 'EB Garamond';
+   font-family: 'EB Garamond', serif;
    font-weight: 400;
    line-height: 1;
 }
@@ -126,7 +127,7 @@ header {
 }
 
 .content-section__subtitle {
-   font-family: 'EB Garamond';
+   font-family: 'EB Garamond', serif;
    color: #131313;
    font-size: 28px;
    font-weight: 500;
@@ -147,8 +148,25 @@ header {
    color: #131313;
    font-size: 16px;
    font-weight: 400;
-   padding: 0 20px;
+   padding: 0 8px;
+   list-style: none;
 }
+.content-section__list-item {
+   position: relative;
+   right: -8px;
+}
+
+.content-section__list-item::before {
+   content: "";
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   background-color: #131313;
+   position: absolute;
+   left: -17px;
+   top: 7px;
+}
+
 
 .content-section__list-accent {
    font-weight: 700;
@@ -159,7 +177,7 @@ header {
 }
 
 .how-to__title {
-   font-family: 'EB Garamond';
+   font-family: 'EB Garamond', serif;
    font-size: 28px;
    font-weight: 500;
    line-height: 1.1;
@@ -193,12 +211,13 @@ header {
 
 .card__author-photo {
    display: block;
-   max-width: 100px;
+   width: 100px;
+   border-radius: 50%;
    padding-bottom: 8px;
 }
 
 .card__title {
-   font-family: 'EB Garamond';
+   font-family: 'EB Garamond', serif;
    font-size: 22px;
    font-weight: 500;
    padding-bottom: 8px;
@@ -223,6 +242,7 @@ footer {
 .footer__menu-list {
    display: flex;
    justify-content: space-between;
+   list-style: none;
 }
 
 .footer__menu {
