@@ -153,7 +153,7 @@ header {
 }
 .content-section__list-item {
    position: relative;
-   right: -8px;
+   left: 8px;
 }
 
 .content-section__list-item::before {
@@ -206,7 +206,7 @@ header {
 }
 
 .card__author {
-   padding-bottom: 10px;
+   padding-bottom: 8px;
 }
 
 .card__author-photo {
@@ -214,6 +214,10 @@ header {
    width: 100px;
    border-radius: 50%;
    padding-bottom: 8px;
+}
+.card__author-name {
+   font-weight: 700;
+   line-height: 1.35;
 }
 
 .card__title {
